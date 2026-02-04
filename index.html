@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <label class="again" id="again">Again !</label>
+      <h3>(Between 1 and 20)</h3>
+    </div>
+
+    <div class="main">
+      <h1>Guess My Number</h1>
+    </div>
+
+    <div class="line">
+      <a id="secret">?</a>
+    </div>
+
+    <div class="container">
+      <div class="check">
+        <input type="text" id="guessInput" />
+        <label class="again" id="check">Check !</label>
+      </div>
+
+      <div>
+        <h3 id="message">Start Guessing....</h3>
+
+        <div class="icon">
+          <img width="30" src="https://img.icons8.com/emoji/48/hundred-points.png" />
+          <h3 id="score">Score : 20</h3>
+        </div>
+
+        <div class="icon">
+          <img width="30" src="https://img.icons8.com/arcade/64/gold-medal.png" />
+          <h3 id="highscore">Highscore : 0</h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
